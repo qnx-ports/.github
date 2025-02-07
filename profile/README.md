@@ -1,5 +1,19 @@
 # QNX Ports
 
+## TLDR
+
+For the latest open-source projects ported to QNX, please visit:
+
+🔗 **[QNX Build Files Repository](https://github.com/qnx-ports/build-files)**
+
+Each port has its own folder within the repository, containing a `README.md` with specific build instructions.
+
+For detailed steps on how to build a specific port, navigate to its corresponding folder in the repository.
+
+Some ports do not have their own repository at qnx-ports because they work out of the box from upstream.
+
+## Overview
+
 This group contains repositories for open-source projects that have been ported to run on QNX. Most projects have minimal changes from their upstream origin; however, some projects may deviate more to make sure they work with some dependency or architectural difference in the QNX OS.
 
 ## Working with QNX ports
