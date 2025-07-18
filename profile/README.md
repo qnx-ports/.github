@@ -12,6 +12,10 @@ For detailed steps on how to build a specific port, navigate to its correspondin
 
 Some ports do not have their own repository at qnx-ports because they work out of the box from upstream.
 
+To find a dashboard containing a high-level view of all ports and test results, take a look at:
+
+🔗 **[QNX Open-Source Dashboard](https://oss.qnx.com/)**
+
 ## Overview
 
 This group contains repositories for open-source projects that have been ported to run on QNX. Most projects have minimal changes from their upstream origin; however, some projects may deviate more to make sure they work with some dependency or architectural difference in the QNX OS.
@@ -21,6 +25,8 @@ This group contains repositories for open-source projects that have been ported 
 To use a ported project in your own development, you can clone the port repo and build it yourself using your QNX software development environment. (If you are not yet set up for QNX development, get started for free in minutes at [https://www.qnx.com/getqnx](https://www.qnx.com/getqnx).) All of the projects here should be kept in a working state, meaning they build for the target QNX version(s), have available tests, and are operational when used.
 
 While every open-source module has its own build process, the high-level steps remain relatively consistent. For instructions specific to a port, please look in that port's directory in [the Build Files repo](https://github.com/qnx-ports/build-files) above for a `README.md` file.
+
+Every complete open-source port is posted at [the Open-Source Dashboard](https://oss.qnx.com/), alongside test results.
 
 ## Docker-based build environment
 
