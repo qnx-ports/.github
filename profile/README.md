@@ -86,7 +86,7 @@ exit
 
 > ***Note:*** If you deactivate a Python virtual environment in the Docker container, the PATH variable may be reset causing the QNX paths to be not found. You can correct this by reactivating the QNX environment script: `source ~/qnx800/qnxsdp-env.sh`.
 
-## Build example for SDP 8.0 natively
+## Build example for SDP 8.0 (without docker)
 
 These instructions demonstrate the process for building an open-source port, directly on an Ubuntu development host. This example assumes a you wish to compile the `mosquitto` MQTT broker for use on QNX SDP 8.0:
 
